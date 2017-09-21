@@ -53,6 +53,7 @@ public class Yytoken {
 			sb.append("END OF FILE");
 			break;
 		default:
+			sb.append("Something went wrong!");
 			break;
 		}
 		return sb.toString();
